@@ -27,11 +27,11 @@
         <section id="container" class="grid2">
         
             <div class="tarjeta">
-                <img class="foto1" src="https://www.opstechsolution.com/assets/images/about/web-design.png">
+                <img id="foto1" class="foto" src="https://www.opstechsolution.com/assets/images/about/web-design.png">
             </div>
 
             <div class="tarjeta">
-                <img class="foto2" src="https://media.licdn.com/dms/image/v2/D4E03AQF5n3IkqnI75g/profile-displayphoto-crop_800_800/B4EZnDzdpVIMAI-/0/1759926672415?e=1777507200&v=beta&t=p7f-b-WOZHny5On3AoYqKuNI0qDju6jweB8Dt9uaww8">
+                <img id="foto2" class="foto" src="https://media.licdn.com/dms/image/v2/D4E03AQF5n3IkqnI75g/profile-displayphoto-crop_800_800/B4EZnDzdpVIMAI-/0/1759926672415?e=1777507200&v=beta&t=p7f-b-WOZHny5On3AoYqKuNI0qDju6jweB8Dt9uaww8">
             </div>
 
             <section class="skills-cards">
@@ -50,53 +50,55 @@
 
     </section>
 
-        <nav id="menu"> 
-            <section>
-                </ul>
-                <p>Contacto</p>
-                <form action="/enviar" method="post">
-                    
-                    <label for="nombre">Nombre</label>
-                    <input type="text"
-                        id="nombre"
-                        name="nombre"
-                        placeholder="Tu nombre"
-                        required
-                        minlength="2"
-                        maxlength="50">
+    <section class="footer">
 
-                    <label for="ciudad">Ciudad</label>
-                    <select id="ciudad" name="ciudad" required>
-                        <option value="">Selecciona...</option>
-                        <option value="bog">Bogotá</option>
-                        <option value="med">Medellín</option>
-                        <option value="baq">Barranquilla</option>
-                    </select>
-                    
-                    <label for="email">Email</label>
-                    <input type="email"
-                        id="email"
-                        name="email"
-                        placeholder="tu@email.com"
-                        required>
+            <nav id="menu"> 
+                <section>
+                    </ul>
+                    <p>Contacto</p>
+                    <form action="/enviar" method="post">
+                        
+                        <label for="nombre">Nombre</label>
+                        <input type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Tu nombre"
+                            required
+                            minlength="2"
+                            maxlength="50">
 
-                    <label for="telefono">Número de contacto</label>
-                    <input type="tel"
-                        id="telefono"
-                        name="telefono"
-                        placeholder="Ej: 3001234567"
-                        required>
+                        <label for="ciudad">Ciudad</label>
+                        <select id="ciudad" name="ciudad" required>
+                            <option value="">Selecciona...</option>
+                            <option value="bog">Bogotá</option>
+                            <option value="med">Medellín</option>
+                            <option value="baq">Barranquilla</option>
+                        </select>
+                        
+                        <label for="email">Email</label>
+                        <input type="email"
+                            id="email"
+                            name="email"
+                            placeholder="tu@email.com"
+                            required>
 
-                    <button type="submit">Enviar formulario</button>
+                        <label for="telefono">Número de contacto</label>
+                        <input type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="Ej: 3001234567"
+                            required>
 
-                </form>
-                <a href="mascotas.html">
-                    <button id="btn_mascotas">Mascotas</button>
-                </a>
+                        <button type="submit">Enviar formulario</button>
 
-            </section>
-        </nav>
-    
+                    </form>
+                    <a href="mascotas.html">
+                        <button id="btn_mascotas">Mascotas</button>
+                    </a>
+
+                </section>
+            </nav>
+    </section> 
 <script src="index.js"></script>
 </body>
 </html>
